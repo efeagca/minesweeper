@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    height: 400px;
+    width: 400px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: rgb(223, 22, 223);
+    position: relative;
+}
+
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    box-shadow: inset 2px 2px 1px rgb(150, 22, 150), inset -2px -2px 1px rgb(150, 22, 150);
+}
+
+
+.openBomb {
+    background-color: red !important;
+}
+
+.checked {
+    background-color: honeydew;
+}
+
+#scoreContainer {
+    position: absolute;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#flagtxt {
+    font-size: 20px;
+}
+
+#winContext{
+    margin-top: 10px;
+}
+
+#winContext img{
+    width: 200px;
+}
+.hide {
+    display: none;
+}
